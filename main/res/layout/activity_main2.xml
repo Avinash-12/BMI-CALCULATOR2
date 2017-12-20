@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:stretchColumns="1"
+    tools:context="com.example.lenovo.bmicalculatorlecture6.Main2Activity">
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        >
+        <TextView
+           android:id="@+id/textView1"
+            android:text="BMI (Kg/m^2)"
+            android:padding="2dip"
+            android:ems="4"
+
+            android:textColor="@color/colorPrimaryDark"
+            android:background="@color/colorAccent"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textAlignment="textStart" />
+        <TextView
+            android:id="@+id/textView2"
+            android:text="Classification"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/colorPrimary"
+            android:background="#00FF00"
+            />
+    </TableRow>
+
+
+    <TableRow>
+        <TextView
+            android:text="Less than 18.50"
+           android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:text="Underweight"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Btwn 18.50 and 24.99"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:text="Normal Range"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="More than 25.00"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:text="Overweight"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="More than 30.00"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:text="Obese"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            />
+    </TableRow>
+</TableLayout>
